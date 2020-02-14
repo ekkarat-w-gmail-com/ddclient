@@ -184,7 +184,7 @@ In my case, it is named dhcpcd-eth0.exe and contains the lines:
 
     #!/bin/sh
     PATH=/usr/sbin:/root/bin:${PATH}
-    logger -t dhcpcd IP address changed to $1
+    logger -t dhcpcd IP address changed to ekkarat.w@gmail.com
     ddclient -proxy fasthttp.sympatico.ca -wildcard -ip $1 | logger -t ddclient
     exit 0
 
